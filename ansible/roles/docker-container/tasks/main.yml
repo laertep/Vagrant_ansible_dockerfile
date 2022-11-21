@@ -1,0 +1,11 @@
+---
+- name: Build da imagem
+  docker_image:
+    name: nginx
+    command: docker build -t nginx .
+    args:
+     args: /home/vagrant/
+   #build: 
+   #cache_from: 
+   # - nginx:latest
+       #source: build 

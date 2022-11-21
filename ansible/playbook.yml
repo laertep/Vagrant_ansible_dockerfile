@@ -1,0 +1,15 @@
+---
+- hosts: all
+  become: yes
+  roles:
+     - docker
+       #- docker-container 
+  
+  tasks: 
+  - name: Build imagem nginx
+    command: docker build -t nginx .
+    args:
+     chdir: /home/vagrant/
+
+  - name: Executando imagem docker
+    command: docker run -d --name nginx -p 80:8080 nginx
