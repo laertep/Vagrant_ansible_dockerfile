@@ -9,4 +9,4 @@
 * Criação da role - roles/docker-container/tasks para buildar a imagem criada pelo Dockerfile com aplicação NGINX;
 * Criação da role - roles/docker-container/files para comportar o arquivo Dockerfile com a imagen do NGINX.
 
-![image](https://user-images.githubusercontent.com/44216245/203874573-3d40a88a-6215-4b6a-80fa-f203c6cf6b4c.png)
+![image](https://user-images.githubusercontent.com/44216245/203874896-5120222d-0016-4733-ba1e-09cbf96ddd3e.png)
